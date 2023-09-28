@@ -1,0 +1,19 @@
+body {
+  background-color: #131313;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

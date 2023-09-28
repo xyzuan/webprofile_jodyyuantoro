@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xyzuan</title>
+
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+
+    <link rel="stylesheet" href="styles/hero.section.css" />
+    <link rel="stylesheet" href="styles/about.section.css" />
+  </head>
+  <body class="container">
+    <header class="header-container">
+      <img src="assets/svgs/xyzuanland.svg" />
+      <div style="flex: 1"></div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#" class="nav-item">Home</a></li>
+          <li><a href="#" class="nav-item">About</a></li>
+          <li><a href="#" class="nav-item">Timeline</a></li>
+          <li><a href="#" class="nav-item">Portfolio</a></li>
+          <li><a href="#" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
+      <div style="flex: 1"></div>
+      <img style="height: 52px" src="assets/images/theme-light.png" />
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-container">
+      <!-- <div class="hero-bg">
+        <img
+          style="top: 0; right: -600px; animation: rotate 6s linear infinite"
+          src="assets/svgs/herobg.svg"
+        />
+      </div> -->
+      <div class="hero-pic">
+        <div class="card">
+          <img
+            src="assets/images/xyzuanhero.png"
+            alt="xyzuan"
+            class="hero-image"
+          />
+        </div>
+      </div>
+      <div class="hero-title">
+        <div class="heading-container">
+          <div class="heading-item">android</div>
+          <div class="heading-item">flutter</div>
+          <div class="heading-item">kotlin</div>
+          <div class="heading-item">ui/ux</div>
+          <div class="heading-item">js</div>
+          <div class="heading-item">ts</div>
+          <div class="heading-item">next.js</div>
+          <div class="heading-item">design</div>
+          <div class="heading-item">express</div>
+          <div class="heading-item">oop</div>
+        </div>
+        <p
+          style="
+            font-size: small;
+            padding-top: 18px;
+            padding-right: 18px;
+            text-align: right;
+          "
+          class="main-text"
+        >
+          Words aren’t gonna cut it. Let’s scroll and have a peep into my world,
+          shall we?
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-container">
+      <div class="about-pic">
+        <div class="about-card">
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              padding-left: 32px;
+              padding-right: 32px;
+            "
+          >
+            <p
+              style="
+                font-family: Laviossa;
+                font-size: 19px;
+                line-height: 21px;
+                user-select: none;
+              "
+            >
+              jody<br />
+              yuantoro.
+            </p>
+            <div style="flex-grow: 1"></div>
+            <p
+              class="manrope"
+              style="
+                font-weight: 300;
+                line-height: 21px;
+                text-align: right;
+                user-select: none;
+              "
+            >
+              xdroidOSS<br />
+              UI UX, Developer
+            </p>
+          </div>
+          <img
+            src="assets/images/AboutPic.png"
+            alt="xyzuan"
+            style="
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              filter: grayscale(100%);
+              z-index: 2;
+            "
+          />
+          <div
+            style="
+              position: absolute;
+              width: 160%;
+              height: 160%;
+              background-color: #3c3c3c;
+              border-radius: 50%;
+              left: -15%;
+              bottom: -80%;
+              z-index: 1;
+              transition: 0.3s ease-in-out;
+            "
+          ></div>
+          <div
+            style="
+              position: absolute;
+              width: 90%;
+              bottom: 0;
+              padding: 24px;
+              padding-right: 32px;
+              z-index: 3;
+            "
+          >
+            <h1
+              style="
+                font-family: Laviossa;
+                font-size: 48px;
+                line-height: 0px;
+                user-select: none;
+                color: white;
+              "
+            >
+              About me
+            </h1>
+            <div style="display: flex; flex-direction: row">
+              <p
+                class="manrope"
+                style="
+                  font-weight: 400;
+                  font-size: 14px;
+                  user-select: none;
+                  color: white;
+                "
+              >
+                INDONESIA
+              </p>
+              <div
+                style="
+                  flex-grow: 1;
+                  border: 1px solid white;
+                  border-radius: 99px;
+                  margin: 6px 18px;
+                "
+              ></div>
+              <p
+                class="manrope"
+                style="
+                  font-weight: 400;
+                  font-size: 14px;
+                  user-select: none;
+                  color: white;
+                "
+              >
+                21 Y/O CANCER
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <AboutDesc />
+        <AboutSkill />
+      </div>
+    </section>
+  </body>
+</html>

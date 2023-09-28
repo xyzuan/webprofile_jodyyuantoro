@@ -1,0 +1,28 @@
+.about-container {
+  background-color: #1e1e1e;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  margin: 18px;
+}
+
+.about-pic {
+  position: relative;
+  padding-right: 24px;
+  padding-top: 40px;
+}
+
+.about-card {
+  border-radius: 32px 32px 32px 32px;
+  height: 540px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: none;
+  transition: 0.3s ease-in-out;
+  min-width: 490px;
+  max-width: 500px;
+  min-block-size: 360px;
+  min-height: 75%;
+  max-height: 80%;
+}
