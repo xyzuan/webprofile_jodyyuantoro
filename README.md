@@ -6,7 +6,7 @@ Welcome to the repository for my personal website! This website showcases my por
 
 ## License
 
-This repository is licensed under the MIT license. See [LICENSE](https://github.com/xyz-prjkt/ngubalanSmartChat/blob/main/LICENSE) for details.
+This repository is licensed under the MIT license. See [LICENSE](https://github.com/xyzuan/xyzuanFtNative/blob/main/LICENSE) for details.
 
 ##
 
