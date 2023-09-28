@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="styles/hero.section.css" />
     <link rel="stylesheet" href="styles/about.section.css" />
+    <link rel="stylesheet" href="styles/portfolio.section.css" />
   </head>
   <body class="container">
     <header class="header-container">
@@ -19,10 +20,9 @@
       <nav class="header-nav">
         <ul>
           <li><a href="#" class="nav-item">Home</a></li>
-          <li><a href="#" class="nav-item">About</a></li>
+          <li><a href="#about" class="nav-item">About</a></li>
           <li><a href="#" class="nav-item">Timeline</a></li>
-          <li><a href="#" class="nav-item">Portfolio</a></li>
-          <li><a href="#" class="nav-item">Contact</a></li>
+          <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
         </ul>
       </nav>
       <div style="flex: 1"></div>
@@ -30,7 +30,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-container">
+    <section id="#" class="hero-container">
       <!-- <div class="hero-bg">
         <img
           style="top: 0; right: -600px; animation: rotate 6s linear infinite"
@@ -75,7 +75,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-container">
+    <section id="about" class="about-container">
       <div class="about-pic">
         <div class="about-card">
           <div
@@ -241,5 +241,184 @@
         <AboutSkill />
       </div>
     </section>
+
+    <section id="portfolio" class="portfolio-container">
+      <div
+        id="portofolio"
+        style="color: #ffffff; padding: 34px; transition: 0.3s ease-in-out"
+      >
+        <h1 style="font-family: Laviossa; font-size: 48px; user-select: none">
+          Portfolio
+        </h1>
+        <p
+          class="manrope"
+          style="
+            font-size: 14px;
+            font-smooth: always;
+            padding-bottom: 24px;
+            user-select: none;
+          "
+        >
+          A collection of my past recent works. Feel free to take a look to get
+          a grasp of my style
+        </p>
+        <div class="grid-container">
+          <div class="grid-item">
+            <div class="portfolio-card">
+              <div class="card-media">
+                <img
+                  src=" https://res.cloudinary.com/myxyzuan/image/upload/v1694810480/yanbcig9mlwe9tw33em6.png"
+                />
+              </div>
+              <div class="card-content">
+                <h2 class="card-title">
+                  2nd Winner of UI/UX Design: Lomba Nasional Kreativitas
+                  Mahasiswa LO Kreatif 2022
+                </h2>
+                <p class="card-description">
+                  foodCare, Inovasi Aplikasi Berbagi Makanan Berlebih pada
+                  Masyarakat Sekitar
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="portfolio-card">
+              <div class="card-media">
+                <img
+                  src="https://res.cloudinary.com/myxyzuan/image/upload/v1694810492/vrbcrf5tgbwg0uyxqmrd.png"
+                />
+              </div>
+              <div class="card-content">
+                <h2 class="card-title">pintarin.</h2>
+                <p class="card-description">
+                  An online learning platform specifically designed for
+                  beginners in programming. It offers a comprehensive range of
+                  courses and resources to help individuals kickstart their
+                  journey in programming and develop essential coding skills.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="portfolio-card">
+              <div class="card-media">
+                <img
+                  src="https://res.cloudinary.com/myxyzuan/image/upload/v1694810533/i446avx7qfvcvsmux9x3.png"
+                />
+              </div>
+              <div class="card-content">
+                <h2 class="card-title">xdroidOSS Open Source Software</h2>
+                <p class="card-description">
+                  An Android OS with Minimal Design Oriented which offers a
+                  streamlined and simplistic user interface that prioritizes
+                  minimalism and ease of use.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="portfolio-card">
+              <div class="card-media">
+                <img
+                  src="https://res.cloudinary.com/myxyzuan/image/upload/v1694810577/zbpnnxem4gocqvvu9enx.png"
+                />
+              </div>
+              <div class="card-content">
+                <h2 class="card-title">jacketLab.</h2>
+                <p class="card-description">
+                  Jacket Lab is a comprehensive and user-friendly application
+                  specifically designed to streamline the tasks of assistants
+                  when it comes to managing jacket-related information. With
+                  Jacket Lab, assistants can effortlessly access a wealth of
+                  information regarding jackets, including details about
+                  different styles, sizes, materials, and colors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="color: #ffffff; padding: 24px; transition: 0.3s ease-in-out">
+      <div>
+        <a href="#" style="text-decoration: none; color: inherit">
+          <h2
+            style="font-family: Laviossa; font-size: 32px; padding-bottom: 24px"
+          >
+            &lt;/xyzuan.
+          </h2>
+        </a>
+      </div>
+      <div>
+        <a href="#about" style="text-decoration: none; color: inherit">
+          <p class="manrope" style="font-weight: medium; padding: 6px">ABOUT</p>
+        </a>
+        <a href="#timeline" style="text-decoration: none; color: inherit">
+          <p class="manrope" style="font-weight: medium; padding: 6px">
+            CAREER
+          </p>
+        </a>
+        <a href="#portfolio" style="text-decoration: none; color: inherit">
+          <p class="manrope" style="font-weight: medium; padding: 6px">
+            PORTFOLIO
+          </p>
+        </a>
+        <div style="padding-top: 18px; padding-left: 8px; padding-right: 8px">
+          <hr />
+        </div>
+      </div>
+      <div style="padding-top: 24px">
+        <a href="https://github.com/xyzuan" target="_blank">
+          <img
+            width="42"
+            height="42"
+            src="/assets/images/github.png"
+            alt="github"
+          />
+        </a>
+        <a href="https://linkedin.com/in/xyzuan" target="_blank">
+          <img
+            width="42"
+            height="42"
+            src="/assets/images/linkedin.png"
+            alt="linkedin"
+          />
+        </a>
+        <a href="https://twitter.com/xyzuannihboss" target="_blank">
+          <img
+            width="42"
+            height="42"
+            src="/assets/images/twitter.png"
+            alt="twitter"
+          />
+        </a>
+        <a href="https://t.me/xyzuan" target="_blank">
+          <img
+            width="42"
+            height="42"
+            src="/assets/images/telegram.png"
+            alt="telegram"
+          />
+        </a>
+        <a href="mailto:xyzuannihboss@gmail.com">
+          <img
+            width="42"
+            height="42"
+            src="/assets/images/email.png"
+            alt="email"
+          />
+        </a>
+      </div>
+      <p class="manrope" style="padding-left: 8px; padding-right: 8px">
+        Designed with love by Jody Yuantoro
+        <br />
+        Copyright 2023 a xyzuan, xyzscape LLC
+      </p>
+    </footer>
   </body>
 </html>

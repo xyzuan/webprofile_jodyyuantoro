@@ -86,3 +86,19 @@
     font-size: 68px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .card {
+    height: 330px;
+    min-width: 350px;
+    margin-bottom: 30px;
+  }
+
+  .heading-container {
+    text-align: left;
+  }
+}
