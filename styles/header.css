@@ -37,6 +37,12 @@
   font-weight: 700;
 }
 
+.header-burger {
+  visibility: hidden;
+  width: 0;
+  margin-left: 12px;
+}
+
 .nav-item {
   color: white;
   text-decoration: none;
@@ -44,4 +50,16 @@
 
 ul {
   list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-nav {
+    width: 0;
+    visibility: hidden;
+  }
+
+  .header-burger {
+    width: auto;
+    visibility: visible;
+  }
 }
