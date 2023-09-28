@@ -2,7 +2,7 @@
   background-color: #1e1e1e;
   border-radius: 32px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   transition: 0.3s ease-in-out;
   margin: 18px;
 }
@@ -11,6 +11,7 @@
   position: relative;
   padding-right: 24px;
   padding-top: 40px;
+  height: 100%;
 }
 
 .about-card {

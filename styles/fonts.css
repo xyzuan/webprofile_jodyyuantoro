@@ -4,3 +4,8 @@
   font-family: "Laviossa";
   src: url("../assets/fonts/Laviossa-Medium.otf") format("woff");
 }
+
+@font-face {
+  font-family: "Prestige";
+  src: url("../assets/fonts/Prestige-Signature.ttf") format("woff");
+}
